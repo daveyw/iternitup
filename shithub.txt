@@ -1,6 +1,7 @@
+git pull
+
 git add .
 git commit -m "This is a message"
 git push
 
 
-git pull
