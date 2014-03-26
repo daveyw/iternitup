@@ -1,0 +1,101 @@
+﻿
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Converter Example</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600|Source+Code+Pro" rel="stylesheet" />
+    <!--[if lte IE 8]><script src="js/vendor/html5shiv.js" type="text/javascript"></script><![endif]-->
+    <script src="js/vendor/jquery-1.10.2.min.js"></script>
+    <script src="js/converter.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/vendor/skel.min.js"></script>
+    <script src="js/calc.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header -->
+        <div id="Div1" class="row">
+            <div class="8u">
+
+                
+                    <h1>My Calculater</h1>
+
+                
+                
+            </div>
+            <nav id="nav" class="8u">
+                <a href="index.html">Home</a>
+                <a href="#">About Me</a>
+                <a href="#">Blog</a>
+                <a href="coolstuff.html">Somthing cool</a>
+            </nav>
+
+
+
+        </div>
+
+
+
+        <div class="containere">
+            <!-- Header -->
+            <div id="header" class="row">
+                <div class="8u">
+                   
+                </div>
+
+                
+
+            </div>
+            <!– Hero –>
+
+          
+            <br />
+            <form name=form1>
+                <center>
+                    <input type=text name=t1 value="" size=50><p>
+                        <input type=button value="   1   " name=b1 onclick=displaynum(1)>
+                        <input type=button value="   2   " name=b2 onclick=displaynum(2)>
+                        <input type=button value="   3   " name=b3 onclick=displaynum(3)>
+                        <input type=button value="   +   " name=bplus onclick=operator("+")><br>
+
+                        <input type=button value="   4   " name=b4 onclick=displaynum(4)>
+                        <input type=button value="   5   " name=b5 onclick=displaynum(5)>
+                        <input type=button value="   6   " name=b6 onclick=displaynum(6)>
+                        <input type=button value="   -   " name=bminus onclick=operator("-")> <br>
+
+                        <input type=button value="   7   " name=b7 onclick=displaynum(7)>
+                        <input type=button value="   8   " name=b8 onclick=displaynum(8)>
+                        <input type=button value="   9   " name=b9 onclick=displaynum(9)>
+                        <input type=button value="   *   " name=bmultiply
+                               onclick=operator("*")> <br>
+
+                        <input type=button value="   .   " name=bdot onclick=displaynum(".")>
+                        <input type=button value="   0   " name=b0 onclick=displaynum(0)>
+                        <input type=button value="   =   " name=bequal onclick=equals()>
+                        <input type=button value="   /   " name=bdivide onclick=operator("/")> <br>
+
+                        <input type=button value="  -+ " name=bnegate onclick=negation()>
+                        <input type=button value="clear" name=bclear onclick=reset()>
+                        <input type=button value="  !  " name=bfact onclick=fact()>
+                        <input type=button value=" nCr " name=bcombination
+                               onclick=operator("nCr")>
+
+                        <input type=button value=" nPr " name=bpermutation
+                               onclick=operator("nPr")><br>
+
+                        <input type=button value="Prime" name=bprime onclick=prime(t1.value)>
+                </center>
+
+            </form>
+
+
+            <!-- Footer -->
+            <div id="footer">
+                &copy;David Winters x12110396.
+            </div>
+        </div>
+</body>
+</html>

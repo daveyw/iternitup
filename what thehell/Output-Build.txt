@@ -1,0 +1,15 @@
+﻿------ Build started: Project: aridemo, Configuration: Debug Any CPU ------
+------ Publish started: Project: aridemo, Configuration: Debug Any CPU ------
+Auto ConnectionString Transformed Web.config into C:\Users\David\AppData\Local\Temp\WebSitePublish\aridemo--1787630964\obj\Debug\CSAutoParameterize\transformed\Web.config.
+Copying all files to temporary location below for package/publish:
+C:\Users\David\AppData\Local\Temp\WebSitePublish\aridemo--1787630964\obj\Debug\Package\PackageTmp.
+Start Web Deploy Publish the Application/package to https://waws-prod-am2-007.publish.azurewebsites.windows.net/msdeploy.axd?site=newonedave ...
+Adding ACL's for path (newonedave)
+Adding ACL's for path (newonedave)
+Updating file (newonedave\index.html).
+Adding ACL's for path (newonedave)
+Adding ACL's for path (newonedave)
+Publish Succeeded.
+Site was published successfully http://newonedave.azurewebsites.net/
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========
+========== Publish: 1 succeeded, 0 failed, 0 skipped ==========
